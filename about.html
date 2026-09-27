@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>关于我们</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: "Segoe UI", "Microsoft YaHei", sans-serif;
+      background: #f4f6f8;
+      color: #85b9ec;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #6db0d2;
+      color: #e8dede;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 { font-size: 36px; margin-bottom: 12px; }
+    header p { color: #91ec7c; font-size: 18px; }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 24px;
+    }
+
+    .feature {
+      background: #ea9595;
+      border-radius: 12px;
+      padding: 28px;
+      box-shadow: 0 4px 12px rgba(170, 140, 231, 0.06);
+      border-top: 4px solid #3498db;
+    }
+
+    .feature h2 { font-size: 20px; margin-bottom: 10px; }
+    .feature p { color: #62d1d8; font-size: 15px; }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: #95a5a6;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>WELCOME!关于我</h1>
+    <p>这是属于我的专属网页</p>
+  </header>
+
+  <main>
+    <div class="grid">
+      <div class="feature">
+        <h2>我的使命</h2>
+        <p>持续学习前端与编程知识,动手实践一段代码。</p>
+      </div>
+      <div class="feature">
+        <h2>我的愿景</h2>
+        <p>保持好奇心,不断打磨技术能力,尝试用代码做出有价值的作品。</p>
+      </div>
+      <div class="feature">
+        <h2>联系我</h2>
+        <p>邮箱：1809932115@qq.com<br>电话：18583318502</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>© 2026 个人主页 · 保留所有权利</footer>
+</body>
+</html>
